@@ -1,0 +1,6 @@
+- [ ] What's the pinout for the J-Link connector?
+- [ ] Tie VDDA to VDD?
+- [ ] Pick new 32kHz osc
+- [ ] Check "Blue Pill" schematic
+- [ ] Add USB connector
+- [ ] Finish adding power capacitors
