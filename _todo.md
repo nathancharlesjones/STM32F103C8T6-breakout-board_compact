@@ -5,3 +5,5 @@
 - [ ] Add USB connector
 - [ ] Finish adding power capacitors
 - [ ] Compare SWD connector to SOICBites
+- [ ] Add JLCPCB rules
+- [ ] Use 0402 resistors/capacitors?
