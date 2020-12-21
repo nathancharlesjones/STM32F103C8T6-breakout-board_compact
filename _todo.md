@@ -1,7 +1,10 @@
 - [ ] What's the pinout for the J-Link connector?
 - [ ] Tie VDDA to VDD?
 - [ ] Pick new 32kHz osc
-- [ ] Check "Blue Pill" schematic
+- [x] Check "Blue Pill" schematic
+  - [ ] Compare oscillator circuit
+  - [ ] Compare reset circuit
+  - [ ] Check USB circuit
 - [ ] Add USB connector
 - [ ] Finish adding power capacitors
 - [ ] Compare SWD connector to SOICBites
