@@ -4,3 +4,4 @@
 - [ ] Check "Blue Pill" schematic
 - [ ] Add USB connector
 - [ ] Finish adding power capacitors
+- [ ] Compare SWD connector to SOICBites
