@@ -4,7 +4,7 @@
 - [x] Check "Blue Pill" schematic
   - [ ] Compare oscillator circuit
   - [ ] Compare reset circuit
-  - [ ] Check USB circuit
+  - [x] Check USB circuit -> Add 1.5K PU resistor on DP line (see AN4879)
 - [ ] Add USB connector
 - [ ] Finish adding power capacitors
 - [ ] Compare SWD connector to SOICBites
