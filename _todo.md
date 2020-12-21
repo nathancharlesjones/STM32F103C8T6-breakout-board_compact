@@ -7,3 +7,5 @@
 - [ ] Compare SWD connector to SOICBites
 - [ ] Add JLCPCB rules
 - [ ] Use 0402 resistors/capacitors?
+- [ ] Add .gitignore
+- [ ] Add VUSB?
