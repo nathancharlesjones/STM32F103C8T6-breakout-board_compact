@@ -1,14 +1,14 @@
 - [ ] What's the pinout for the J-Link connector?
-- [ ] Tie VDDA to VDD?
-- [ ] Pick new 32kHz osc
+- [x] Tie VDDA to VDD?
+- [x] Pick new 32kHz osc -> LCSC part #C32346
 - [x] Check "Blue Pill" schematic
   - [ ] Compare oscillator circuit
   - [ ] Compare reset circuit
   - [x] Check USB circuit -> Add 1.5K PU resistor on DP line (see AN4879)
 - [ ] Add USB connector
-- [ ] Finish adding power capacitors
+- [x] Finish adding power capacitors
 - [ ] Compare SWD connector to SOICBites
 - [ ] Add JLCPCB rules
 - [ ] Use 0402 resistors/capacitors?
-- [ ] Add .gitignore
+- [x] Add .gitignore
 - [ ] Add VUSB?
