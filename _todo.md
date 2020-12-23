@@ -12,7 +12,7 @@
       - [x] What's R_EXT? Change to 663R?
     - LSE
       - [x] Change C1/C2 to 15 pF
-    - [ ] Check oscillator circuits
+    - [x] Check oscillator circuits
   - [x] Compare reset circuit -> Check for 100nF capacitance
   - [x] Check USB circuit -> Add 1.5K PU resistor on DP line (see AN4879)
 - [x] Add USB connector
@@ -45,8 +45,9 @@
   - USB and VIN_5-30V need to be diode-protected, since I (may) want to have both connected at the same time. Doesn't matter which is higher, since they're both getting regulated down to 3.3V.
   - Change "VIN_2.0-3.6V" to "VDD"
   - Remove D1/D2 and install jumper; allows developer to decide whether to power the MCU from the "VDD" pin or from the regulator
-  - Add "VUSB"
+  - Add "VUSB"; allows developer to power other parts of their circuit from USB.
 - [x] Change 0R resistors to cut pads? -> Nah, at $0.002/resistor, it's actually easier to put down a 0R resistor than to ask someone to cut a trace
 - [ ] Add notch for Debug Edge
 - [ ] Build Debug Edge adapter board
 - [x] Change voltage regulator
+- [ ] Change Debug edge pins
