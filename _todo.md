@@ -3,6 +3,7 @@
     - Pin 10 on 10-pin connector (nRST) is the same as Pin 15 on 20-pin connector (RST or nSRST) and connects to NRST on STM32 (pin 7)
     - Pin 9 on 10-pin connector (NC) is the same as Pin 3 on 20-pin connector (TRST) and connects to JTRST on STM32 (PB4; pin 40)
     - Compare Figure 12 in Hardware Guide with Segger [6-pin](https://www.segger.com/products/debug-probes/j-link/accessories/adapters/6-pin-needle-adapter/) and [10-pin adapters](https://www.segger.com/products/debug-probes/j-link/accessories/adapters/10-pin-needle-adapter/)
+    - See also the Tag Connect [TC2050-ARM2010 ARM 20-pin to TC2050 Adapter datasheet](https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-ARM2010_18.pdf)
 - [x] Tie VDDA to VDD?
 - [x] Pick new 32kHz osc -> LCSC part #C32346
 - [x] Check "Blue Pill" schematic
@@ -56,11 +57,21 @@
   - [x] Check cutout width
 - [x] Change voltage regulator
 - [x] Change Debug edge pins
-- [ ] Add LCSC part numbers to components
-- [ ] Add sections and numbers to schematic
-- [ ] Finish silkscreen
+- [x] Add LCSC part numbers to components
+- [x] Add sections and numbers to schematic
+- [x] Finish silkscreen
   - [x] Update component numbers
+  - [ ] Double check URL
 - [x] Change crystals for oscillators
-  - [ ] Use wider voltage range?
-- [ ] Add folder for special library parts
-- [ ] New power arrangement?
+  - [x] Use wider voltage range? -> Nah
+- [x] Add folder for special library parts: AVX, USB
+- [x] New power arrangement?
+- [x] Check USB lines
+  - [x] Length match
+- [x] Check edge alignment of USB connector/Debug-edge
+- [x] Extend Debug edge indentation? -> Nah
+- [ ] Check hardware layout for STM32F302CBT6
+  - [ ] Other possibilities: STM32L151C8T6, STM32L052C8T6
+- [ ] Rotate pin labels
+- [ ] Order
+- [ ] Update README
