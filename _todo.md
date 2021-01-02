@@ -70,8 +70,9 @@
   - [x] Length match
 - [x] Check edge alignment of USB connector/Debug-edge
 - [x] Extend Debug edge indentation? -> Nah
-- [ ] Check hardware layout for STM32F302CBT6
-  - [ ] Other possibilities: STM32L151C8T6, STM32L052C8T6
-- [ ] Rotate pin labels
+- [x] Check hardware layout for STM32F302CBT6
+  - [x] Other possibilities: STM32L151C8T6, STM32L052C8T6
+- [ ] Update LCSC part number for U1 on schematic
 - [ ] Order
+  - [ ] Include Q2?
 - [ ] Update README
