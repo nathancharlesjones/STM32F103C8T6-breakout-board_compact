@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1281,15 +1281,15 @@ Created by Upverter.com</description>
 <signal name="BOOT0">
 <contactref element="U1" pad="44"/>
 <contactref element="R3" pad="2"/>
-<wire x1="15.045" y1="31.865" x2="16.395" y2="31.865" width="0.127" layer="1"/>
-<wire x1="16.395" y1="31.865" x2="16.51" y2="31.75" width="0.127" layer="1"/>
-<via x="16.51" y="31.75" extent="1-16" drill="0.35"/>
-<wire x1="16.51" y1="31.75" x2="15.875" y2="32.385" width="0.127" layer="16"/>
 <wire x1="15.875" y1="43.815" x2="16.51" y2="44.45" width="0.127" layer="16"/>
 <wire x1="16.51" y1="46.975" x2="16.525" y2="46.99" width="0.127" layer="1"/>
-<wire x1="15.875" y1="32.385" x2="15.875" y2="43.815" width="0.127" layer="16"/>
 <via x="16.51" y="44.45" extent="1-16" drill="0.35"/>
 <wire x1="16.51" y1="44.45" x2="16.51" y2="46.975" width="0.127" layer="1"/>
+<wire x1="15.045" y1="31.865" x2="14.49" y2="31.865" width="0.127" layer="1"/>
+<wire x1="14.49" y1="31.865" x2="13.97" y2="32.385" width="0.127" layer="1"/>
+<via x="13.97" y="32.385" extent="1-16" drill="0.35"/>
+<wire x1="13.97" y1="32.385" x2="15.875" y2="34.29" width="0.127" layer="16"/>
+<wire x1="15.875" y1="34.29" x2="15.875" y2="43.815" width="0.127" layer="16"/>
 </signal>
 <signal name="OSC_OUT">
 <contactref element="U1" pad="6"/>
@@ -1617,12 +1617,12 @@ Created by Upverter.com</description>
 </signal>
 <signal name="PA9*">
 <contactref element="U1" pad="30"/>
-<wire x1="10.545" y1="26.865" x2="10.545" y2="25.785" width="0.127" layer="1"/>
-<via x="6.35" y="21.59" extent="1-16" drill="0.35"/>
-<wire x1="4.445" y1="19.685" x2="6.35" y2="21.59" width="0.127" layer="16"/>
-<wire x1="10.545" y1="25.785" x2="6.35" y2="21.59" width="0.127" layer="1"/>
+<wire x1="10.545" y1="25.785" x2="10.545" y2="26.865" width="0.127" layer="1"/>
 <contactref element="J1" pad="15"/>
 <wire x1="1.905" y1="19.685" x2="4.445" y2="19.685" width="0.127" layer="16"/>
+<via x="6.985" y="22.225" extent="1-16" drill="0.35"/>
+<wire x1="6.985" y1="22.225" x2="10.545" y2="25.785" width="0.127" layer="1"/>
+<wire x1="4.445" y1="19.685" x2="6.985" y2="22.225" width="0.127" layer="16"/>
 </signal>
 <signal name="PA10*">
 <contactref element="U1" pad="31"/>
@@ -1747,12 +1747,11 @@ Created by Upverter.com</description>
 </signal>
 <signal name="PB8*">
 <contactref element="U1" pad="45"/>
-<wire x1="15.045" y1="32.365" x2="15.065" y2="32.385" width="0.127" layer="1"/>
-<wire x1="15.065" y1="32.385" x2="16.51" y2="32.385" width="0.127" layer="1"/>
-<via x="16.51" y="32.385" extent="1-16" drill="0.35"/>
-<wire x1="19.05" y1="34.925" x2="16.51" y2="32.385" width="0.127" layer="16"/>
 <contactref element="J2" pad="9"/>
-<wire x1="19.685" y1="34.925" x2="19.05" y2="34.925" width="0.127" layer="16"/>
+<wire x1="15.045" y1="32.365" x2="15.895" y2="32.365" width="0.127" layer="1"/>
+<wire x1="15.895" y1="32.365" x2="16.51" y2="31.75" width="0.127" layer="1"/>
+<via x="16.51" y="31.75" extent="1-16" drill="0.35"/>
+<wire x1="16.51" y1="31.75" x2="19.685" y2="34.925" width="0.127" layer="16"/>
 </signal>
 <signal name="PB9*">
 <contactref element="U1" pad="46"/>
@@ -1795,12 +1794,14 @@ Created by Upverter.com</description>
 <contactref element="U1" pad="11"/>
 <wire x1="8.545" y1="35.365" x2="8.545" y2="34.635" width="0.127" layer="1"/>
 <wire x1="8.545" y1="34.635" x2="8.89" y2="34.29" width="0.127" layer="1"/>
-<via x="8.89" y="34.29" extent="1-16" drill="0.35"/>
-<wire x1="8.89" y1="34.29" x2="12.7" y2="38.1" width="0.127" layer="16"/>
 <wire x1="12.7" y1="38.1" x2="12.7" y2="41.91" width="0.127" layer="16"/>
 <wire x1="18.415" y1="47.625" x2="12.7" y2="41.91" width="0.127" layer="16"/>
 <contactref element="J2" pad="4"/>
 <wire x1="19.685" y1="47.625" x2="18.415" y2="47.625" width="0.127" layer="16"/>
+<wire x1="8.89" y1="34.29" x2="8.89" y2="33.655" width="0.127" layer="1"/>
+<via x="8.89" y="33.655" extent="1-16" drill="0.35"/>
+<wire x1="8.89" y1="33.655" x2="8.89" y2="34.29" width="0.127" layer="16"/>
+<wire x1="8.89" y1="34.29" x2="12.7" y2="38.1" width="0.127" layer="16"/>
 </signal>
 <signal name="PA2">
 <contactref element="U1" pad="12"/>
@@ -1825,21 +1826,21 @@ Created by Upverter.com</description>
 <wire x1="6.985" y1="55.245" x2="7.62" y2="55.88" width="0.127" layer="1"/>
 <wire x1="19.05" y1="55.88" x2="7.62" y2="55.88" width="0.127" layer="1"/>
 <contactref element="J2" pad="1"/>
-<wire x1="6.545" y1="33.865" x2="5.505" y2="33.865" width="0.127" layer="1"/>
 <wire x1="4.699" y1="43.434" x2="5.715" y2="44.45" width="0.127" layer="1"/>
-<wire x1="5.505" y1="33.865" x2="4.699" y2="34.671" width="0.127" layer="1"/>
-<wire x1="4.699" y1="34.671" x2="4.699" y2="43.434" width="0.127" layer="1"/>
+<wire x1="4.699" y1="35.711" x2="4.699" y2="43.434" width="0.127" layer="1"/>
 <wire x1="19.685" y1="55.245" x2="19.05" y2="55.88" width="0.127" layer="1"/>
+<wire x1="6.545" y1="33.865" x2="4.699" y2="35.711" width="0.127" layer="1"/>
 </signal>
 <signal name="PA4">
 <contactref element="U1" pad="14"/>
-<wire x1="6.545" y1="33.365" x2="5.37" y2="33.365" width="0.127" layer="1"/>
-<wire x1="5.37" y1="33.365" x2="5.08" y2="33.655" width="0.127" layer="1"/>
-<via x="5.08" y="33.655" extent="1-16" drill="0.35"/>
-<wire x1="4.445" y1="34.29" x2="5.08" y2="33.655" width="0.127" layer="16"/>
 <contactref element="J1" pad="1"/>
 <wire x1="1.905" y1="55.245" x2="4.445" y2="52.705" width="0.127" layer="16"/>
-<wire x1="4.445" y1="52.705" x2="4.445" y2="34.29" width="0.127" layer="16"/>
+<wire x1="4.445" y1="52.705" x2="4.445" y2="34.925" width="0.127" layer="16"/>
+<wire x1="6.545" y1="33.365" x2="5.37" y2="33.365" width="0.127" layer="1"/>
+<wire x1="5.37" y1="33.365" x2="5.08" y2="33.655" width="0.127" layer="1"/>
+<wire x1="5.08" y1="33.655" x2="5.08" y2="34.29" width="0.127" layer="1"/>
+<via x="5.08" y="34.29" extent="1-16" drill="0.35"/>
+<wire x1="5.08" y1="34.29" x2="4.445" y2="34.925" width="0.127" layer="16"/>
 </signal>
 <signal name="PA5">
 <contactref element="U1" pad="15"/>
