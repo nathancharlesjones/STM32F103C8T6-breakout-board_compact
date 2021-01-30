@@ -11368,11 +11368,11 @@ Created by Upverter.com</description>
 <wire x1="-2.99999375" y1="4" x2="2.99999375" y2="4" width="0.15" layer="51"/>
 <text x="-3.31" y="3.005" size="1" layer="25" rot="R180">&gt;NAME</text>
 <circle x="-2" y="5.375" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="-2" y="2.5" dx="1" dy="4" layer="1" rot="R180"/>
-<smd name="2" x="0" y="2.5" dx="1" dy="4" layer="1" rot="R180"/>
+<smd name="1" x="-2.0635" y="2.5" dx="0.873" dy="4" layer="1" rot="R180"/>
+<smd name="2" x="0.0635" y="2.5" dx="0.873" dy="4" layer="1" rot="R180"/>
 <smd name="3" x="2" y="2.5" dx="1" dy="4" layer="1" rot="R180"/>
-<smd name="4" x="-2" y="2.5" dx="1" dy="4" layer="16" rot="R180"/>
-<smd name="5" x="0" y="2.5" dx="1" dy="4" layer="16" rot="R180"/>
+<smd name="4" x="-2.0635" y="2.5" dx="0.873" dy="4" layer="16" rot="R180"/>
+<smd name="5" x="0.0635" y="2.5" dx="0.873" dy="4" layer="16" rot="R180"/>
 <smd name="6" x="2" y="2.5" dx="1" dy="4" layer="16" rot="R180"/>
 <text x="-3.81" y="-1.27" size="0.6096" layer="51">  ^PCB EDGE^</text>
 </package>
